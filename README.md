@@ -1,7 +1,7 @@
-# [go.emoji](https://github.com/Andrew-M-C/go.emoji)
+# [go.emoji](https://github.com/minhjh/go.emoji)
 
-[![GoDoc](https://godoc.org/github.com/Andrew-M-C/go.emoji?status.svg)](https://godoc.org/github.com/Andrew-M-C/go.emoji)
-[![](https://goreportcard.com/badge/github.com/Andrew-M-C/go.emoji)](https://goreportcard.com/report/github.com/Andrew-M-C/go.emoji)
+[![GoDoc](https://godoc.org/github.com/minhjh/go.emoji?status.svg)](https://godoc.org/github.com/minhjh/go.emoji)
+[![](https://goreportcard.com/badge/github.com/minhjh/go.emoji)](https://goreportcard.com/report/github.com/minhjh/go.emoji)
 
 This Package `emoji` is designed to recognize and parse every indivisual Unicode Emoji characters from a string.
 

@@ -1,3 +1,3 @@
-module github.com/Andrew-M-C/go.emoji
+module github.com/minhjh/go.emoji
 
-go 1.12
+go 1.17

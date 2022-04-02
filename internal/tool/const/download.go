@@ -49,9 +49,9 @@ func downloadEmoji() {
 	zwj, err := httpGet(emojiOfficialURL + latest + "/" + emojiOfficialZwjSeqFile)
 	check(err)
 
-	err = ioutil.WriteFile(emojiDataFile, []byte(basic), 0644)
+	err = ioutil.WriteFile(emojiDataFile, []byte(basic), 0o644)
 	check(err)
-	err = ioutil.WriteFile(emojiZwjSeqFile, []byte(zwj), 0644)
+	err = ioutil.WriteFile(emojiZwjSeqFile, []byte(zwj), 0o644)
 	check(err)
 
 	referenceURL = emojiOfficialURL + latest + "/"
